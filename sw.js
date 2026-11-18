@@ -1,6 +1,6 @@
 /* Service worker de Bolsillo de Enfermería.
    Para publicar una versión nueva, cambiá el número de VERSION. */
-var VERSION = "bolsillo-v1";
+var VERSION = "enfermeria-v2";
 var SHELL = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png", "maskable-512.png", "apple-touch-icon.png"];
 var FONT_HOSTS = ["fonts.googleapis.com", "fonts.gstatic.com"];
 

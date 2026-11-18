@@ -1,4 +1,4 @@
-BOLSILLO DE ENFERMERÍA — APP INSTALABLE
+ENFERMER-IA — APP INSTALABLE
 =======================================
 
 Contenido de esta carpeta
@@ -40,7 +40,7 @@ Los puntos, las preguntas hechas y los avances se guardan en cada celular (no se
 
 ACTUALIZAR LA APP
 Cuando haya una versión nueva, reemplazá index.html y subí todo de nuevo.
-Si cambiás algo, editá sw.js y cambiá "bolsillo-v1" por "bolsillo-v2" (y así) para que los celulares se actualicen.
+Si cambiás algo, editá sw.js y cambiá "enfermeria-v2" por "enfermeria-v3" (y así) para que los celulares se actualicen.
 La app instalada se actualiza la siguiente vez que se abre con internet.
 
 AVISO
