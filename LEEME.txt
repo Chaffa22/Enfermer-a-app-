@@ -1,0 +1,47 @@
+BOLSILLO DE ENFERMERÍA — APP INSTALABLE
+=======================================
+
+Contenido de esta carpeta
+  index.html            La app completa
+  manifest.webmanifest  Nombre, colores e íconos de la app
+  sw.js                 Hace que funcione sin internet
+  icons/                Íconos de la app
+
+PASO 1. PUBLICARLA (una sola vez)
+La app necesita estar en una dirección web con https. Hay dos formas gratuitas:
+
+  Opción A — Netlify (la más fácil, sin instalar nada)
+  1. Descomprimí el .zip en tu computadora.
+  2. Entrá a https://app.netlify.com/drop (te pide crear una cuenta gratuita).
+  3. Arrastrá la CARPETA descomprimida (no el .zip) a la pantalla.
+  4. Te da un link tipo https://nombre-al-azar.netlify.app. Ese es el link de tu app.
+     En "Site configuration" podés cambiarle el nombre.
+
+  Opción B — GitHub Pages
+  1. Creá un repositorio público en GitHub.
+  2. Subí todos los archivos de esta carpeta (index.html, sw.js, manifest.webmanifest y la carpeta icons).
+  3. En Settings → Pages, elegí "Deploy from a branch", rama main y carpeta /root.
+  4. Tu link será https://TU-USUARIO.github.io/NOMBRE-DEL-REPO/
+
+Ojo: el link es público. Cualquiera que lo tenga puede abrir la app.
+
+PASO 2. INSTALARLA EN EL CELULAR
+  Android (Chrome)
+    Abrí el link → menú ⋮ → "Instalar app" (o "Agregar a pantalla de inicio").
+  iPhone (tiene que ser Safari)
+    Abrí el link → botón Compartir → "Agregar a pantalla de inicio".
+
+Se instala con el ícono rojo y se abre a pantalla completa.
+
+SIN INTERNET
+Abrila una vez con internet. Desde ahí funciona sin conexión.
+Los tipos de letra se guardan solos después de la primera apertura con internet.
+Los puntos, las preguntas hechas y los avances se guardan en cada celular (no se comparten entre dispositivos).
+
+ACTUALIZAR LA APP
+Cuando haya una versión nueva, reemplazá index.html y subí todo de nuevo.
+Si cambiás algo, editá sw.js y cambiá "bolsillo-v1" por "bolsillo-v2" (y así) para que los celulares se actualicen.
+La app instalada se actualiza la siguiente vez que se abre con internet.
+
+AVISO
+Es una herramienta de estudio y consulta rápida. El contenido clínico (dosis, metas, protocolos) debe validarse con los protocolos de la institución antes de usarlo en la práctica. No reemplaza la indicación médica.
