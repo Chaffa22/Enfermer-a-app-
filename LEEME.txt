@@ -5,7 +5,7 @@ Contenido de esta carpeta
   index.html            La app completa
   manifest.webmanifest  Nombre, colores e íconos de la app
   sw.js                 Hace que funcione sin internet
-  icons/                Íconos de la app
+  icon-192.png, icon-512.png, maskable-512.png, apple-touch-icon.png   Íconos de la app (sueltos, sin carpeta)
 
 PASO 1. PUBLICARLA (una sola vez)
 La app necesita estar en una dirección web con https. Hay dos formas gratuitas:
@@ -19,7 +19,7 @@ La app necesita estar en una dirección web con https. Hay dos formas gratuitas:
 
   Opción B — GitHub Pages
   1. Creá un repositorio público en GitHub.
-  2. Subí todos los archivos de esta carpeta (index.html, sw.js, manifest.webmanifest y la carpeta icons).
+  2. Subí todos los archivos de esta carpeta (todos los archivos sueltos, sin carpetas).
   3. En Settings → Pages, elegí "Deploy from a branch", rama main y carpeta /root.
   4. Tu link será https://TU-USUARIO.github.io/NOMBRE-DEL-REPO/
 
